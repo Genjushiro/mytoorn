@@ -1,0 +1,73 @@
+<ion-view>
+
+  <ion-header-bar >
+    <div class="buttons">
+      <button ng-click="goBack()"><i class="ion-android-arrow-back" style="color: #000;"></i></button>
+    </div>
+    <h1 class="title"><img class="logo" src='./img/Toorn.png'/></h1>
+  </ion-header-bar>
+
+  <ion-content class="body">
+    <br><br>
+
+
+    <h1 class="connexion"><i class="ion-person"></i> Inscription </h1>
+
+
+      <form>
+        <div class="list list-inset">
+          <label class="item item-input">
+            <input type="text" placeholder="Name" id="nom" class="validate" data-ng-model="nom" required>
+          </label>
+          <label class="item item-input">
+            <input type="text" placeholder="First name" id="prenom" class="validate" data-ng-model="prenom" required>
+          </label>
+
+          <label class="item item-input">
+            <input type="text" placeholder="example@live.fr" id="email"  class="validate" data-ng-model="email" required>
+          </label>
+
+          <label class="item item-input">
+            <input type="text" placeholder="Login" id="login" class="validate" data-ng-model="pseudo" required>
+          </label>
+
+          <label class="item item-input">
+            <input placeholder="Password" id="password" type="password" class="validate" data-ng-model="mdp" required>
+          </label>
+
+          <label class="item item-input">
+            <input placeholder="Confirm" id="pswdConfirm" type="password" class="validate" data-ng-model="pswdConfirm" required>
+          </label>
+
+          <label class="item item-input">
+            <input placeholder="Age" id="age" type="text" class="validate" data-ng-model="age" required>
+          </label>
+
+          <label class="item item-input">
+            <input type="text" placeholder="Adresse" id="adresse" class="validate" data-ng-model="adresse" required>
+          </label>
+
+
+
+
+        </div>
+        <button class="button button-outline button-positive activated" ng-click="signup(nom, prenom, email, pseudo, mdp, pswdConfirm, age, adresse)">S'inscrire</button>
+
+
+      </form>
+
+
+
+
+<br><br>
+
+
+    <center>
+
+
+    </center>
+
+
+  </ion-content>
+</ion-view>
+

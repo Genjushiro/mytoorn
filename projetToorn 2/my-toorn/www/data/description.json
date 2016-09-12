@@ -1,0 +1,126 @@
+[
+  {
+    "index": "streetfighter2",
+    "description": "Street Fighter V est un jeu vidéo de combat de la série Street Fighter développé et édité par Capcom."
+  },
+  {
+    "index": "counterstrike_go",
+    "description": "Counter-Strike: Global Offensive est un jeu de tir à la première personne multijoueur en ligne basé sur le jeu d'équipe."
+  },
+  {
+    "index": "supersmashbros_3ds_wiiu",
+    "description": "Super Smash Bros. for Nintendo 3DS et Super Smash Bros. for Wii U sont deux jeux vidéo de combat développés par Sora Ltd. et Bandai Namco Games et édités par Nintendo.."
+  },
+  {
+    "index": "ultimatemarvelvscapcom3",
+    "description": "Ultimate Marvel vs. Capcom 3 est un jeu vidéo de combat développé et édité par Capcom."
+  },
+  {
+    "index": "thekingoffighters13",
+    "description": "The King of Fighters XIII est un jeu vidéo de combat de la série The King of Fighters."
+  },
+  {
+    "index": "pokken",
+    "description": "Pokkén Tournament, connu sous le nom de Pokémon Tekken en Allemagne, est un jeu vidéo de combat développé et édité par Bandai Namco Entertainment, mettant en scènes des personnages de la franchise Pokémon."
+  },
+  {
+    "index": "guiltygear_xrd_revelator",
+    "description": "Une femme appelée, Ramlethal Valentine, déclare la guerre aux hommes et à leur monde. Votre mission consistera à empêcher cette adversaire redoutable d'en venir à bout de l’humanité. Pour continuer la révolution entamée par la première version de Guilty Gear Xrd SIGN, le titre s'offre une mise à jour avec Guilty Gear Xrd Revelator. Celle-ci rajoute de nouveaux personnages ainsi qu'un gameplay plus balancé avec des attaques mises à jour. La mise à jour est disponible sur PS4."
+  },
+  {
+    "index": "tekken7",
+    "description": "Tekken 7 est un jeu vidéo de combat de la série Tekken développé et édité par Bandai Namco Games. Le jeu est le premier de la série à bénéficier du moteur Unreal Engine 4."
+  },
+  {
+    "index": "supersmashbros",
+    "description": "Super Smash Bros. est une série de jeux vidéo de combat et de plates-formes éditée par Nintendo et développée en grande partie par HAL Laboratory. Elle met en scène de nombreux personnages issus de l'univers des jeux de la franchise Nintendo."
+  },
+  {
+    "index": "deadoralive5_lastround",
+    "description": "Jeu de combat, Dead or Alive 5 : Last Round met encore une fois en scène les célèbres combattants de DoA qui n'hésitent pas à se rentrer dedans. On retrouve donc les anciens à savoir Ayane, Kasumi, Ayubusa, etc ainsi que deux petits nouveaux."
+  },
+  {
+    "index": "mortalkombatx",
+    "description": "Mortal Kombat X est un jeu vidéo de combat développé par NetherRealm Studios en collaboration avec High Voltage Software et édité par Warner Bros."
+  },
+  {
+    "index": "mariokart",
+    "description": "Mario Kart est une série de jeux vidéo produite par Nintendo, spin-off de la série de jeux de plates-formes Super Mario ; elle met en scène des jeux de course de voitures."
+  },
+  {
+    "index": "dota2",
+    "description": "Dota 2 est un jeu vidéo de type arène de bataille en ligne multijoueur développé et édité par Valve Corporation avec l'aide de certains des créateurs du jeu d'origine : Defense of the Ancients."
+  },
+  {
+    "index": "rocketleague",
+    "description": "Rocket League est un jeu de sport développé par Psyonix."
+  },
+  {
+    "index": "cod_bo3",
+    "description": "Call of duty Black Ops III est un jeu vidéo de tir à la première personne développé par le studio Treyarch et édité par Activision."
+  },
+  {
+    "index": "halo5_guardians",
+    "description": "Guardians est un jeu vidéo de tir à la première personne édité par Microsoft Studios et développé par 343 Industries."
+  },
+  {
+    "index": "starcraft2_lotv",
+    "description": "StarCraft II: Legacy of the Void est la dernière extension du jeu de stratégie en temps réel StarCraft II et fait suite à Heart of the Swarm."
+  },
+  {
+    "index": "overwatch",
+    "description": "Overwatch est un jeu vidéo de tir en vue subjective en ligne développé par Blizzard Entertainment et publié par Activision Blizzard."
+  },
+  {
+    "index": "leagueoflegends",
+    "description": "League of Legends est un jeu vidéo d'ordinateur de type arène de bataille en ligne multijoueur gratuit développé et édité par Riot Games"
+  },
+  {
+    "index": "fifa",
+    "description": "FIFA 16 est un jeu vidéo de football développé par EA Canada et édité par Electronic Arts."
+  },
+  {
+    "index": "fifa15",
+    "description": "FIFA 16 est un jeu vidéo de football développé par EA Canada et édité par Electronic Arts."
+  },
+  {
+    "index": "fifa16",
+    "description": "FIFA 16 est un jeu vidéo de football développé par EA Canada et édité par Electronic Arts."
+  },
+  {
+    "index": "fifa17",
+    "description": "FIFA 16 est un jeu vidéo de football développé par EA Canada et édité par Electronic Arts."
+  },
+  {
+    "index": "clash_royale",
+    "description": "Clash Royale est un jeu vidéo développé et édité par Supercell, sorti le 2 mars 2016 sur iOS et Android. Il s'agit d'un jeu mêlant des éléments de tower defense et MOBA, avec un système de cartes à collectionner."
+  },
+  {
+    "index": "battlefield1",
+    "description": "Battlefield 1 est un jeu vidéo de tir en vue subjective développé par DICE et édité par Electronic Arts."
+  },
+  {
+    "index": "battlefield3",
+    "description": "Battlefield 3 est un jeu vidéo de tir en vue subjective développé par DICE et édité par Electronic Arts."
+  },
+  {
+    "index": "battlefield4",
+    "description": "Battlefield 4 est un jeu vidéo de tir en vue subjective développé par DICE et édité par Electronic Arts."
+  },
+  {
+    "index": "quakelive",
+    "description": "Quake Live est un projet de jeu vidéo de type tir à la première personne créé par id Software et annoncé en 2007. Il s'agit de Quake 3 et de son supplément Quake III: Team Arena revisités afin de se lancer via un navigateur web."
+  },
+  {
+    "index": "rainbowsix_siege",
+    "description": "Tom Clancy's Rainbow Six: Siege est un jeu vidéo de tir tactique développé par Ubisoft Montréal et édité par Ubisoft."
+  },
+  {
+    "index": "trackmania2stadium",
+    "description": "TrackMania est une série de jeux vidéo de course, développée par Nadeo et éditée par Focus Home Interactive et Ubisoft."
+  },
+  {
+    "index": "trackmania_turbo",
+    "description": "TrackMania est une série de jeux vidéo de course, développée par Nadeo et éditée par Focus Home Interactive et Ubisoft."
+  }
+]

@@ -1,0 +1,40 @@
+<ion-view>
+  <div class="bar bar-header bar-light">
+    <a  class="pull-left" href="#/discipline"></a>
+    <h1 class="title"><img class="logo" src='./img/Toorn.png'/></h1>
+  </div>
+  <ion-content class="has-header">
+
+    <h1 class="games"><i class="ion-ios-game-controller-a"></i> Games </h1>
+
+
+
+    <div ng-repeat="item in discipline">
+
+         <div class="list card">
+
+           <div class="item item-avatar">
+             <img src="./img/{{item.id}}.png"/>
+             <h2>{{item.name}}</h2>
+           </div>
+
+           <div class="item item-body">
+            <div ng-repeat="desc in description" ng-if="desc.index == item.id">
+              <span> {{desc.description}} </span>
+              <span ng-if="desc"> {{desc.description}} </span>
+           </div>
+             <p>
+               <a href="#/discipline/{{item.id}}/tournament" class="subdued"><i class="ion-aperture"></i> Tournaments
+
+               </a>
+             </p>
+           </div>
+
+         </div>
+
+
+    </div>
+
+  </ion-content>
+</ion-view>
+

@@ -1,0 +1,149 @@
+
+/*custom is class added to ion-content*/
+
+.logo{
+  width: 55px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.body{
+  background-color: #cccccc;
+}
+
+.item-input{
+  border-color: #111111;
+}
+
+.logotrnmnt{
+  width: 100px;
+  height: 100px;
+}
+
+.ion-content{
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  font-family: "Arial Unicode MS";
+  width: 50px;
+  margin-right: 50px;
+}
+
+
+
+.custom .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent;
+}
+
+/*.background-color-view {
+  background-color: #4a6ab8;
+}*/
+
+.icon-jeux{
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.titre-jeux{
+  color: #FF0000;
+  font-size: 20px;
+  font-family: PT Sans Narrow;
+  position: absolute;
+  left: 90px;
+  display: block;
+  margin-top: 13px;
+}
+.titre-tournoi{
+  color: #FF0000;
+  font-size: 20px;
+  font-family: PT Sans Narrow;
+}
+.titre-jeux-tournoi{
+  color: #ffffff;
+  font-size: 16px;
+  font-family: PT Sans Narrow;
+}
+.subdued{
+  color: #ffffff;
+  font-size: 15px;
+  font-style: oblique;
+  font-family: PT Sans Narrow;
+
+}
+.item-avatar{
+  background-color: rgb(220,220,220);
+}
+.item-avatars{
+  background-color: #ffffff;
+  border-color: #9e9e9e;
+}
+.ion-ios-game-controller-a{
+  height: 20px;
+  width: 20px;
+  color: #0c60ee;
+}
+.ion-ios-arrow-thin-left{
+  height: 55px;
+  width: 35px;
+  color: #0c60ee;
+}
+.tournoi{
+  font-size: 24px;
+  color: #0c60ee;
+  text-align: center;
+  margin-top: auto;
+
+}
+.games{
+  font-size: 24px;
+  color: #0c60ee;
+  text-align: center;
+  margin-top: auto;
+}
+
+.aperture{
+  position: absolute;
+  left: 200px;
+  display: block;
+}
+.ion-person{
+  font-size: 24px;
+  color: #0c60ee;
+  text-align: center;
+  margin-top: auto;
+}
+.connexion{
+  font-size: 24px;
+  color: #111111;
+  font-style: !important;
+  text-align: center;
+  margin-top: auto;
+}
+
+.participants{
+  font-size: 24px;
+  color: #0c60ee;
+  text-align: center;
+  margin-top: auto;
+
+}
+
+.ion-aperture{
+  color: #FF0000;
+}
+.logotrnmnt{
+  margin-top: 200px;
+  width: 170px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}

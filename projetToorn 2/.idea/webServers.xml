@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c53e5951-250f-4aa0-b917-297c2ae60d93" name="vm" url="http://52.174.48.54/">
+        <fileTransfer host="52.174.48.54" port="22" rootFolder="/home/myriam/projetToorn" accessType="SFTP" password="dfd8dfc5dfc5dfde" username="myriam">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

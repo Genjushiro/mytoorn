@@ -1,0 +1,28 @@
+<ion-view>
+  <ion-header-bar >
+    <div class="buttons">
+      <button ng-click="goBack()"><i class="ion-android-arrow-back" style="color: #000;"></i></button>
+    </div>
+    <h1 class="title"><img class="logo" src='./img/Toorn.png'/></h1>
+  </ion-header-bar>
+
+ <!-- <div class="bar bar-header bar-light">
+    <a class="pull-left" href="#/app/tournament"> <i class="ion-ios-arrow-thin-left"></i></a>
+    <img class="logo" src='./img/Toorn.png'/>
+  </div>-->
+  <ion-content class="has-header">
+
+    <body class="part">   <h1 class="participants"><i class="ion-person"></i> Participants </h1>
+
+
+    <div class="list">
+      <div ng-repeat="item in collection"><br>
+      <a class="item item-avatar">
+        <img src="./img/icon_user.png">
+        <h2><div class="nom-part">{{item.name}}</div></h2>
+      </a>
+
+    </div>
+    </body>
+  </ion-content>
+</ion-view>

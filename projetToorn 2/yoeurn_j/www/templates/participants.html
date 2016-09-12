@@ -1,0 +1,16 @@
+<ion-view>
+  <div class="bar bar-header bar-light">
+    <a  class="pull-left" ng-click="goBack()"s> <i class="ion-ios-arrow-thin-left"></i></a>
+    <img class="logo" src='./img/Toorn.png'/>
+  </div>
+  <ion-content class="has-header">
+    <h1 class="participants"><i class="ion-person"></i> Participants </h1>
+
+
+    <div ng-controller="ParticipantCtrl">
+      <div ng-repeat="item in collection">
+        <div class="nom-part">{{item.name}}</div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

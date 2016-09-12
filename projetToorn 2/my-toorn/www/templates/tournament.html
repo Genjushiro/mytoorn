@@ -1,0 +1,58 @@
+<ion-view>
+  <div class="bar bar-header bar-light">
+    <a href="#/app/discipline" class="pull-left"> <i class="ion-ios-arrow-thin-left"></i></a>
+    <h1 class="title"><img class="logo" src='./img/Toorn.png'/></h1>
+  </div>
+  <ion-content class="has-header">
+
+    <h1 class="tournoi"><i class="ion-aperture"></i> Toornaments </h1>
+
+    <div ng-controller="TournamentCtrl" ng-repeat="item in collection">
+
+    <div class="list card">
+      <div class="item item-avatar">
+        <img src="/img/{{item.discipline}}.png">
+        <div class="titre-tournoi">{{ item.name }}</div>
+        <strong>
+          <div class="titre-jeux-tournoi">
+           Jeux : {{ item.discipline }}
+          </div>
+        </strong>
+      </div>
+
+      <div class="item item-body" style="background-color: rgb(211,211,211);">
+      <div class="titre-jeux-tournoi"><b>Statut</b> : {{ item.status }} </div>
+        <div class="titre-jeux-tournoi">
+          <div class="titre-jeux-tournoi">
+            <b>
+            <span ng-if="item.online == true">En ligne</span>
+            <span ng-if="item.online == false">En Local</span>
+            </b>
+          </div>
+        <div class="titre-jeux-tournoi">
+          <span ng-if="item.location != null || item.country != null"><b>Localisation :</b> {{ item.location }} <img src="/img/{{item.country}}.png"></span>
+        </div>
+        <div class="titre-jeux-tournoi" ng-click="showParticipants(item.id)"><b>Nombre de Joueurs :</b> {{ item.size }} </div>
+
+
+            <div class="subdued">Début : {{ item.date_start }} </div>
+            <div class="subdued">
+              <span ng-if="item.date_end != null">Fin : {{ item.date_end }}</span>
+            </div>
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!--<ion-item href="#/app/schedule/{{item.id}}">Planning</ion-item>
+		<hr/>-->
+	</div>
+  </ion-content>
+</ion-view>

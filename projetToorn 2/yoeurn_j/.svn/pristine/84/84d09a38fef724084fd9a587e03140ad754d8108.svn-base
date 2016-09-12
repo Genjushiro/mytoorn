@@ -1,0 +1,35 @@
+<ion-view>
+  <div class="bar bar-header bar-light">
+    <a  class="pull-left" href="#/discipline"></a>
+    <h1 class="title"><img class="logo" src='./img/Toorn.png'/></h1>
+  </div>
+  <ion-content class="has-header">
+
+    <h1 class="games"><i class="ion-ios-game-controller-a"></i> Games </h1>
+
+
+
+       <div ng-controller="DisciplineCtrl" ng-repeat="item in discipline"></br>
+
+
+         <div class="item item-avatars">
+             <div>
+               <a href="#/tournament"> <img class="icon-jeux" src="./img/{{item.id}}.png"/></a>
+             </div>
+
+         <div class="titre-jeux">
+           <a href="#/tournament"> <i class="ion-ios-game-controller-b"></i> {{item.name}}
+              <div class="aperture">
+                <i class="ion-aperture"></i>
+              </div>
+           </a>
+         </div>
+        </div>
+
+       </div>
+
+
+     </div>
+  </ion-content>
+</ion-view>
+

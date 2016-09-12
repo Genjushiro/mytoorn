@@ -1,0 +1,11 @@
+<ion-view view-title="Toorn - Schedule">
+  <ion-content class="background-color-view">
+	<div ng-controller="ScheduleCtrl">
+		<h2>{{schedule.name}}</h2>
+		<p>{{schedule.timezone}}</p>
+		<div ng-repeat="item in schedule.events">
+			<p>{{item.name}} à {{item.date}} - {{item.hour}}</p>
+		</div>		
+	</div>
+  </ion-content>
+</ion-view>
